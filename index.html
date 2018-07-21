@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Infinite Rectangles</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <meta property="og:title" content="Infinite Rectangles">
+  <meta property="twitter:title" content="Infinite Rectangles">
+  <meta property="og:image" content="snap.png">
+  <meta property="twitter:image" content="snap.png">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <style>
+    body,
+    html {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      overflow: hidden;
+      background-color: black;
+      z-index:-2;
+    }
+    canvas {
+      z-index:-1;
+      position: absolute;
+      background-color: black;
+    }
+    .noselect {
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+    }
+    iframe, a {
+      color:#333;
+      position:absolute;
+      bottom:0;
+      left:0;
+      margin:.1in;
+    }
+    iframe {
+      right:0;
+      left:initial;
+    }
+  </style>
+  <script type="text/javascript" src="two.min.js"></script>
+</head>
+<body class='noselect'>
+  <!-- <a href='https://twitter.com/ferm10n'>OMG MOARR</a> -->
+  <!-- Place this tag where you want the button to render. -->
+  <!-- <a class="github-button" href="https://github.com/ferm10n" aria-label="Follow @ferm10n on GitHub">Follow @ferm10n</a> -->
+
+  <canvas class="noselect">
+  </canvas>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
