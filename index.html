@@ -10,7 +10,7 @@
   <meta property="twitter:title" content="Infinite Rectangles">
   <meta property="og:image" content="snap.png">
   <meta property="twitter:image" content="snap.png">
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <style>
     body,
@@ -51,10 +51,22 @@
       right:0;
       left:initial;
     }
+    p {
+      color:blue;
+    }
+    #somethingSpecialidk {
+      position: fixed;
+      display: none;
+    }
   </style>
   <script type="text/javascript" src="two.min.js"></script>
 </head>
 <body class='noselect'>
+  <div id="somethingSpecialidk">
+    <p>x: <span id="x"></span></p>
+    <p>y: <span id="y"></span></p>
+    <p>z: <span id="z"></span></p>
+  </div>
   <!-- <a href='https://twitter.com/ferm10n'>OMG MOARR</a> -->
   <!-- Place this tag where you want the button to render. -->
   <!-- <a class="github-button" href="https://github.com/ferm10n" aria-label="Follow @ferm10n on GitHub">Follow @ferm10n</a> -->
